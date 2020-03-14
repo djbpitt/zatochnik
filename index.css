@@ -1,0 +1,139 @@
+html
+{
+    background-color:#F4EEE2;
+    color: black;
+    font-family: cambria,"palatino linotype", times, serif;
+}
+#container
+{
+    min-height:100%;
+}
+#header_container
+{
+    min-width:1100px;
+}
+h1.header_text
+{
+    position:relative;
+    padding-left:5px;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-family: Verdana, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", "Verdana Ref", sans-serif;
+    font-weight: bold;
+    line-height:1.4em;  
+    font-size: 2em;
+}
+.logo
+{
+    color:#A00000;
+}
+h1 a
+{
+    text-decoration:none;
+}
+h1 a:hover
+{
+    text-decoration:underline;
+}
+#about:hover
+{
+    text-decoration:underline;
+    border:1px dotted;
+    border-color:#A00000;
+}
+#about
+{
+    font-family: Verdana, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", "Verdana Ref", sans-serif;
+    padding-left:20px;
+    padding-right:20px;
+    border:1px black dotted;
+    border-radius:3px;
+    color:black;
+    text-decoration:none;
+    font-size:.5em;
+    font-weight:bold;
+    position:absolute;
+    top:2px;
+    right:20px;
+}
+
+h2
+{   margin:10px;   }
+
+div.plectogram
+{
+    text-align:center;
+    margin-left:2%;
+    margin-right:2%;
+    height:125px;
+    min-width:900px;
+}
+
+svg
+{    height:120px;   
+     min-width:930px;   }
+
+.textPane
+{
+    position:absolute;
+    margin:0 auto;
+    display:inline-block;
+    vertical-align:top;
+    overflow-y:scroll;
+    height:auto;
+    top:230px;
+    bottom:50px;
+    width:47%;
+    min-width:250px;
+    border-bottom:solid 1px;
+}
+#slovoTextPane
+{
+    left:2%;
+}
+#molenieTextPane
+{
+    left:51%;
+}
+#slovo div p, #molenie div p, #slovo h1, #molenie h1, #slovo-sources span span, #molenie-sources span span, svg text
+{
+    cursor:pointer;
+}
+
+#mappings
+{    display:none;    }
+
+
+#slovo-sources span, #molenie-sources span
+{
+    display:none;
+    position:absolute;
+    bottom:15px;
+    white-space:nowrap;
+}
+#slovo-sources span span, #molenie-sources span span
+{
+    display:inline-block;
+    position:relative;
+}
+#slovo-sources span span span.sourceText, #molenie-sources span span span.sourceText
+{
+    bottom:48px;
+    display:none;
+    width:auto;
+}
+
+#slovoEmpty, #molenieEmpty
+{ display:none; }
+
+#source_bubble
+{
+    background:white;
+    border:solid black 1px;
+    border-radius:10px;
+    padding:3px;
+    overflow:visible;
+    min-width:300px;
+}
